@@ -181,3 +181,40 @@ footer i:hover {
     color: #6e20b8;
     font-size: 20px;
 }
+
+.stats-section {
+  background: #1d0335;
+  padding: 80px 20px;
+}
+
+.stats-container {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  text-align: center;
+}
+
+.stat-box {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 30px;
+  border-radius: 14px;
+  transition: transform 0.3s ease;
+}
+
+.stat-box:hover {
+  transform: translateY(-6px);
+}
+
+.stat-box h2 {
+  font-size: 40px;
+  color: #944ef0;
+  margin-bottom: 10px;
+}
+
+.stat-box p {
+  color: #ddd;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}

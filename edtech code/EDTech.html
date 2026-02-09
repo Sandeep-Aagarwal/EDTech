@@ -168,6 +168,36 @@ Covers developing intelligent systems, neural networks, and data algorithms. </p
       <a href="mailto:sandeepagarwal3988@gmail.com"><i class="bi bi-telephone"></i></a>
        <a href="https://www.linkedin.com/in/sandeep-agarwal-393911338/"><i class="bi bi-globe"></i></a>
 </div>
+
+<br><br><br><br>
+
+<section class="stats-section">
+  <div class="stats-container">
+
+    <div class="stat-box">
+      <h2 class="counter" data-target="1200">0</h2>
+      <p>Students Enrolled</p>
+    </div>
+
+    <div class="stat-box">
+      <h2 class="counter" data-target="15">0</h2>
+      <p>Expert Courses</p>
+    </div>
+
+    <div class="stat-box">
+      <h2 class="counter" data-target="48">0</h2>
+      <p>Mentors</p>
+    </div>
+
+    <div class="stat-box">
+      <h2 class="counter" data-target="93">0</h2>
+      <p>Success Rate (%)</p>
+    </div>
+
+  </div>
+</section>
+
+
     </div>
   </section>
 
@@ -197,6 +227,43 @@ Covers developing intelligent systems, neural networks, and data algorithms. </p
 
 
 
+<script>
+const counters = document.querySelectorAll('.counter');
+let started = false;
+
+function startCounters() {
+  if (started) return;
+  started = true;
+
+  counters.forEach(counter => {
+    const target = +counter.getAttribute('data-target');
+    let count = 0;
+    const speed = target / 100;
+
+    const updateCount = () => {
+      if (count < target) {
+        count += speed;
+        counter.innerText = Math.ceil(count);
+        requestAnimationFrame(updateCount);
+      } else {
+        counter.innerText = target;
+      }
+    };
+
+    updateCount();
+  });
+}
+
+window.addEventListener('scroll', () => {
+  const section = document.querySelector('.stats-section');
+  const sectionTop = section.getBoundingClientRect().top;
+  const screenHeight = window.innerHeight;
+
+  if (sectionTop < screenHeight - 100) {
+    startCounters();
+  }
+});
+</script>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
