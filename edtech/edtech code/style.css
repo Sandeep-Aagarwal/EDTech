@@ -1,0 +1,183 @@
+body {
+    background-color: #2c1146;
+    color: antiquewhite;
+    font-family: cursive;
+    
+}
+.header {
+    border-bottom: 2px solid #59228bdc;
+    border-radius: 8px;
+
+}
+
+h1 {
+    font-family: cursive;
+}
+
+.nav-link {
+    color: #a469dbdc;
+    font-family: cursive;
+    border-radius: 5px;
+
+}
+
+.nav-link:hover {
+    color: #2c1146dc;
+    background-color: #a469dbdc;
+    font-weight: 900;
+
+}
+
+.main h3 {
+    margin-top: 13rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.main p {
+    text-align: center;
+
+}
+
+.button {
+    margin-left: 35rem;
+    margin-top: 3rem;
+    background-color: #210838;
+    color: antiquewhite;
+    border-radius: 10px;
+    padding: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 2px solid #0c0116;
+
+}
+
+.button:hover {
+    background-color: #59228bdc;
+    font-weight: 800;
+    border: 2px solid #59228bdc;
+
+}
+
+.courses h2 {
+    text-align: center;
+    margin-top: 15rem; 
+    margin-bottom: 5rem;
+    background-color: #0c011618;
+
+}
+
+.one {
+    display: flex;
+    border: 3px solid white;
+    
+}
+
+.card-body {
+    background-color: #1d0335;
+    border: 2px solid #2c1146;
+    color: whitesmoke;
+
+}
+
+.btn {
+    background-color: #11021f ;
+    color: whitesmoke;
+    border: 3px solid #11021f;
+
+
+}
+
+.btn:hover {
+    background-color: #8a0cff44;
+    font-weight: 600;
+    border: 2px solid #8a0cff44;
+}
+
+.card-body h5 {
+    margin-bottom: 0.9rem;
+}
+
+.card-body p {
+    margin-bottom: 5rem;
+}
+
+
+img {
+    max-height: 150px;
+}
+
+.about {
+    text-align: center;
+    margin-top: 15rem;
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 15rem; 
+    margin-bottom: 5rem;
+    background-color: #0c011618;
+
+}
+
+.about h4 {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+    margin-left: 40px;
+}
+
+.about p {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom:4rem;
+    margin-left: 55px;
+    margin-right: 90px;
+
+}
+
+.about ul li {
+    display: flex ;
+    margin-left: 2rem;
+}
+
+.contact h3 {
+    margin-top: 15rem;
+    text-align: center;
+    margin-top: 15rem; 
+    margin-bottom: 5rem;
+    background-color: #0c011618;
+
+}
+
+.icon {
+    display: flex;
+    font-size: x-large;
+    text-align: center;
+    justify-content: center;
+}
+.icon i {
+    padding: 10px;
+
+}
+
+.icon i:hover {
+    color: #6e20b8;
+    font-size: 25px;
+
+}
+
+i {
+   color: whitesmoke;
+}
+
+
+.footer {
+    text-align: center;
+}
+
+footer i:hover {
+    color: #6e20b8;
+    font-size: 20px;
+}
